@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "689325955826",
+    "firebase_url": "https://smarttouristguide-741ac.firebaseio.com",
+    "project_id": "smarttouristguide-741ac",
+    "storage_bucket": "smarttouristguide-741ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689325955826:android:0a014e89872829a8b5ce6b",
+        "android_client_info": {
+          "package_name": "com.se.smarttouristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689325955826-nc0rmf5mgegpcu5i92c0avmc9cnnb7p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-jL7b6lULM8uQ1j3JrxclLmqrmWNS2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689325955826-nc0rmf5mgegpcu5i92c0avmc9cnnb7p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
