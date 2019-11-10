@@ -114,8 +114,9 @@
 
 
 import 'package:flutter/material.dart';
-import './first_screen.dart';
-import './second_screen.dart';
+import './home_screen.dart';
+import './accommodation_screen.dart';
+import './emergency_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -130,8 +131,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/':(context)=>FirstScreen(),
-        '/second':(context) => SecondScreen()
+        '/':(context)=>HomeScreen(),
+        '/accommodation':(context) => AccommodationScreen(),
+        // '/place_view':(context)=> PlaceView(),
+        '/emergency':(context)=>EmergencyScreen(),
       },
     );
   }
