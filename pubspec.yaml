@@ -39,6 +39,7 @@ dependencies:
   url_launcher: ^5.2.5
 
 dev_dependencies:
+  image_test_utils: ^1.0.0
   google_maps_flutter:
   flutter_test:
     sdk: flutter

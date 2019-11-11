@@ -1,4 +1,3 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:flutter/material.dart';
@@ -6,7 +5,6 @@ import './emergency.dart';
 import './emergency_contact_tile.dart';
 
 class EmergencyContactList extends StatelessWidget {
-
   Widget _buildList(BuildContext context, List<DocumentSnapshot> snapshot) {
     return ListView(
       shrinkWrap: true,
@@ -21,7 +19,6 @@ class EmergencyContactList extends StatelessWidget {
     return EmergencyTile(context, place);
   }
 
-
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
@@ -33,8 +30,4 @@ class EmergencyContactList extends StatelessWidget {
       },
     );
   }
-
-
-   
-  
 }

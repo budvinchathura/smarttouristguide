@@ -4,9 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import './acm_tile.dart';
 import './acm.dart';
 
-
 class AcmTileList extends StatelessWidget {
-
   Widget _buildList(BuildContext context, List<DocumentSnapshot> snapshot) {
     return ListView(
       shrinkWrap: true,
@@ -20,10 +18,6 @@ class AcmTileList extends StatelessWidget {
 
     return AcmTile(context, place);
   }
-
-
-
-
 
   @override
   Widget build(BuildContext context) {

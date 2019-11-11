@@ -4,9 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import './place_tile.dart';
 import './place.dart';
 
-
 class PlaceTileList extends StatelessWidget {
-
   Widget _buildList(BuildContext context, List<DocumentSnapshot> snapshot) {
     return ListView(
       shrinkWrap: true,
@@ -20,10 +18,6 @@ class PlaceTileList extends StatelessWidget {
 
     return PlaceTile(context, place);
   }
-
-
-
-
 
   @override
   Widget build(BuildContext context) {

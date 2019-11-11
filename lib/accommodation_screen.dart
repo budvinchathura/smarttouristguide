@@ -6,7 +6,7 @@ class AccommodationScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Screen"),
+        title: Text("Accommodation"),
       ),
       body: AcmTileList()
     );
